@@ -9,4 +9,3 @@ function iterate(callback) {
     numbers.forEach(callback)
     return numbers
 }
-
