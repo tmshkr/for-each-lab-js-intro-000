@@ -4,3 +4,9 @@ function iterativeLog(array) {
     })
 }
 
+function iterate(callback) {
+    let numbers = [1,2,3,4,5]
+    numbers.forEach(callback)
+    return numbers
+}
+
